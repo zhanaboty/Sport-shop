@@ -36,7 +36,7 @@ header{
     right: 0;
     top: 25px;
 }
-.fa-map-marker-alt,.fa-phone-alt,.fa-at,.fa-home,.fa-address-card,.fa-address-book,.fa-shopping-basket{
+.fa-map-marker-alt,.fa-phone-alt,.fa-at,.fa-home,.fa-address-card,.fa-address-book,.fa-shopping-basket,.fa-arrow-up{
     color:black;
 }
 
@@ -131,37 +131,75 @@ header{
     height: 55px;
     color:rgba(255, 196, 45, 0.87);
     background-color: black;
-    font-size: 25px;
+    font-size: 25px;   
 }
-main{
-    background-image: url("concrete-1646788_960_720.webp");
-    background-repeat: repeat;
-}
-
-
-h2 {
-    font-size: 18px; /* Размер шрифта в заголовке */
-    color: #080808; /* Цвет заголовка */
-    margin-top: 0; /* Отступ сверху */
-   }
 .container {
-    width: 100%; /* Ширина слоя */
-    /* margin: 0 auto; Выравнивнить весь блок по центру */
-    
+    width: 100%; 
 }
 .sidebar {
-    
-    width: 10px; /* Ширина блока */
-    padding: 0 130px; /* Отступы внутри левого блока */
-    float: left; /* Обтекание блока по правому краю */
-    background-image: url("background-2369807_960_720.webp");
+    width: 9px; 
+    padding: 10px 130px; 
+    float: left; 
+    background-image: url("rain-455124_960_720.webp");
     background-size: cover;
+    /* background-color: rgba(153, 148, 148, 0.219); */
 }
 .content {
-    margin-left: 20%; /* Отступ слева */
-    padding: 10px; /* Отступы внутри правого блока */
+    margin-left: 20%; 
+    padding: 10px; 
     background-image: url("concrete-1646788_960_720.webp");
 }
+.sidebar a{
+    margin-left: -60px;
+    text-decoration: none;
+    color: rgb(77, 76, 76);
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px red;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+.sidebar a:hover{
+    color: white;
+}
+.element img{
+    width: 250px;
+    height: auto; 
+}
+.platforma{  
+    width: 255px;
+    height: auto;
+    border: 1px solid grey;
+    background-color: rgba(248, 248, 248, 0.801);
+    text-align: center;
+    margin: 30px;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+.element{
+    display: flex;
+    flex-wrap: wrap;
+}
+.topbutton {
+    width:20px;
+    border:2px solid #ccc;
+    background:white;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    cursor:pointer;
+    color:#333;
+    font-family:verdana;
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+    }
+
 
 
 
