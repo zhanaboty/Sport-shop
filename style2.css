@@ -1,9 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic|Playfair+Display+SC:400,700&subset=latin,cyrillic);
 *{
     padding: 0%;
     margin: 0%;
 }
 .top{
-    background-color: #F9BD29;
+    background-color: rgba(255, 196, 45, 0.87);
     padding: 10px;
 }
 .spans{
@@ -13,6 +14,7 @@
     width: 25px;
     height: 30px;
     margin-bottom: -8px;
+    color: brown;
 }
 .spans_img{
     width: 25px;
@@ -22,7 +24,7 @@
 header{
     display: flex;
     height: 90px;
-    background-color: rgb(173, 149, 196);
+    background-color: rgba(33, 136, 50, 0.692);
     position: relative;
 }
 .right_side{
@@ -34,21 +36,24 @@ header{
     right: 0;
     top: 25px;
 }
+.fa-map-marker-alt,.fa-phone-alt,.fa-at,.fa-home,.fa-address-card,.fa-address-book,.fa-shopping-basket{
+    color:black;
+}
+
 .logo_word1{
     font-size: 40px;
     font-family: fantasy;
-    color: rgb(204, 58, 32);
+    color: rgb(206, 219, 26);
     padding-bottom: 10px;
     margin: 20px;
     margin-left: 10px;
 }
 .logo_word2{
     margin: 20px;
-    
     font-size: 40px;
     font-family: fantasy;
-    color: rgba(56, 29, 206, 0.959);
-    margin-left: 5px;  
+    color: rgba(85, 201, 236, 0.911);
+    margin-left: -10px; 
 }
 .logo_img{
     margin: 10px;
@@ -71,13 +76,94 @@ header{
 .left_side a:hover{
     color: tomato;
 }
-
-.w{
-    background-image: url("877446 (1).jpg");
-    min-height: 400px; 
+.parallax{
+    background-image: url("winter.jpg");
+    min-height: 500px; 
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    background-color: none;
 }
+.overlay{
+    position: absolute;
+    width: 1348px;
+    height:500px;
+    background-color: rgba(0, 0, 0, 0.507);
+    z-index: 2;
+}
+.parallax h1{
+    padding-top: 90px;
+    font-size: 50px;
+    color:white;
+    font-weight: bold;
+    font-family: s;
+    letter-spacing: 2px;
+    transition: font-size 0.2s;
+}
+.parallax h1:hover{
+    font-size: 60px;
+}
+.parallax p{
+    color: rgba(248, 248, 248, 0.801);
+    font-size: 16px;
+    font-weight: bold;
+    transition: font-size 0.2s;
+}
+.parallax p:hover{
+    font-size: 24px;
+}
+.parallax button{
+    border:none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(255, 196, 45, 0.87);
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    transition: width 0.2s, height 0.2s;
+}
+.parallax button:hover{
+    width: 180px;
+    height: 55px;
+    color:rgba(255, 196, 45, 0.87);
+    background-color: black;
+    font-size: 25px;
+}
+main{
+    background-image: url("concrete-1646788_960_720.webp");
+    background-repeat: repeat;
+}
+
+
+h2 {
+    font-size: 18px; /* Размер шрифта в заголовке */
+    color: #080808; /* Цвет заголовка */
+    margin-top: 0; /* Отступ сверху */
+   }
+.container {
+    width: 100%; /* Ширина слоя */
+    /* margin: 0 auto; Выравнивнить весь блок по центру */
+    
+}
+.sidebar {
+    
+    width: 10px; /* Ширина блока */
+    padding: 0 130px; /* Отступы внутри левого блока */
+    float: left; /* Обтекание блока по правому краю */
+    background-image: url("background-2369807_960_720.webp");
+    background-size: cover;
+}
+.content {
+    margin-left: 20%; /* Отступ слева */
+    padding: 10px; /* Отступы внутри правого блока */
+    background-image: url("concrete-1646788_960_720.webp");
+}
+
+
+
+
 
