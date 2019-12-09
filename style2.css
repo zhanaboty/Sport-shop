@@ -1,0 +1,18 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.top{
+    background-color: #F9BD29;
+    padding: 10px;
+}
+.spans{
+    padding-left: 10%;
+    font-size: large;
+    font-weight: bolder;
+}
+img{
+    width: 25px;
+    height: 30px;
+    margin-bottom: -8px;
+}
