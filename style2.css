@@ -46,7 +46,7 @@ header{
 .logo_word1{
     font-size: 40px;
     font-family: fantasy;
-    color: rgb(206, 219, 26);
+    color: rgb(63, 33, 13);
     padding-bottom: 10px;
     margin: 20px;
     margin-left: 10px;
@@ -55,7 +55,7 @@ header{
     margin: 20px;
     font-size: 40px;
     font-family: fantasy;
-    color: rgba(85, 201, 236, 0.911);
+    color: rgba(17, 42, 49, 0.911);
     margin-left: -10px; 
 }
 .logo_img{
@@ -231,39 +231,83 @@ footer .main1{
 } 
 .main1 div{
     margin-left: 8%;
-    text-align: center;
+    text-align: left;
 }
 .r a{
     text-decoration: none;
     color: cornsilk;
 }
-.social_networks{
-    
-}
 .social_networks img{
     width: 30px;
     height: auto;
 }
-
 .aboutus{
     width: 100%;
     height: auto;
-    /* background-image: url("concrete-1646788_960_720.webp"); */
+    background-color: rgba(255, 247, 247, 0.767);
 }
 .aboutus .main{
-    background-color: white;
     font-size: 20px;
     padding-left: 20%;
-    margin-top: 10%;
-    margin-bottom: 15%;
+    padding-top: 10%;
+    padding-bottom: 15%;
 }
 .aboutus .main h1{
     font-size: 50px;
 }
-.imgs img{
+.img1 img{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 1px;
+    border-bottom-right-radius: 25%;
+    border-top-left-radius: 25%;
+    width: 400px;
+    height: auto;
+    margin-left: 30%;
+}
+.img2 img{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 120px;
     border: 1px;
     border-top-left-radius: 25%;
     border-bottom-right-radius: 25%;
-    width: 500px;
+    width: 400px;
     height: auto;
+}
+.block, .partner_logos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.partners h2{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 5%;
+    padding-top: 10%;
+}
+.words{
+    margin: auto;
+}
+.words h3{
+    border-bottom: 2px solid black;
+    color: rgb(26, 25, 24);
+}
+.words p{
+    font-size: 22px;
+    color: rgb(53, 52, 52);
+}
+.words h2{
+    color: rgb(25, 25, 31);
+}
+.partner_logos img{
+    width: 170px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 10%;
+}
+.partner_logos a{
+    margin: auto;
+    margin-bottom: 10%;
 }
