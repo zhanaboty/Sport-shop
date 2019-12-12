@@ -2,19 +2,21 @@
 *{
     padding: 0%;
     margin: 0%;
+
 }
 .top{
-    background-color: rgba(255, 196, 45, 0.87);
+    background-color: rgb(49, 44, 44);
     padding: 10px;
 }
 .spans{
-    padding-left: 10%;
+    padding-left: 12%;
     font-size: large;
     font-weight: bolder;
     width: 25px;
     height: 30px;
     margin-bottom: -8px;
-    color: brown;
+    color: white;
+    font-family: 'Adamina';
 }
 .spans_img{
     width: 25px;
@@ -24,8 +26,9 @@
 header{
     display: flex;
     height: 90px;
-    background-color: rgba(33, 136, 50, 0.692);
+    background-color: rgba(80, 82, 81, 0.692);
     position: relative;
+    
 }
 .right_side{
     display: flex;
@@ -37,7 +40,7 @@ header{
     top: 25px;
 }
 .fa-map-marker-alt,.fa-phone-alt,.fa-at,.fa-home,.fa-address-card,.fa-address-book,.fa-shopping-basket,.fa-arrow-up{
-    color:black;
+    color:white;
 }
 
 .logo_word1{
@@ -78,7 +81,7 @@ header{
 }
 .parallax{
     background-image: url("winter.jpg");
-    min-height: 500px; 
+    min-height: 550px; 
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -89,7 +92,7 @@ header{
 .overlay{
     position: absolute;
     width: 1348px;
-    height:500px;
+    height:550px;
     background-color: rgba(0, 0, 0, 0.507);
     z-index: 2;
 }
@@ -101,6 +104,7 @@ header{
     font-family: s;
     letter-spacing: 2px;
     transition: font-size 0.2s;
+
 }
 .parallax h1:hover{
     font-size: 60px;
@@ -110,6 +114,7 @@ header{
     font-size: 16px;
     font-weight: bold;
     transition: font-size 0.2s;
+    
 }
 .parallax p:hover{
     font-size: 24px;
@@ -199,10 +204,9 @@ header{
     -webkit-border-radius: 5px;
 }
 .bottom{
-    
     margin: 0;
-    padding: 20px;
-    
+    padding: 10px;
+    text-align: center;
     color: cornsilk;
 }
 .bottom a{
@@ -214,18 +218,52 @@ footer{
     background-color: rgb(0, 0, 0);
     opacity: 0.9;
 }
-footer .top1{
+footer .main1{
     display: flex;
     flex-wrap: wrap;
     color: cornsilk;
+    font-size: 16px;
+    padding-top: 20px;
+    font-family: 'Abel';
 }
-.top1 h1{
-    margin-left: 18%;
-    font-size: 26px;
+.e i{
+    color: cornsilk;
+} 
+.main1 div{
+    margin-left: 8%;
+    text-align: center;
+}
+.r a{
+    text-decoration: none;
+    color: cornsilk;
+}
+.social_networks{
+    
+}
+.social_networks img{
+    width: 30px;
+    height: auto;
 }
 
-
-
-
-
-
+.aboutus{
+    width: 100%;
+    height: auto;
+    /* background-image: url("concrete-1646788_960_720.webp"); */
+}
+.aboutus .main{
+    background-color: white;
+    font-size: 20px;
+    padding-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+.aboutus .main h1{
+    font-size: 50px;
+}
+.imgs img{
+    border: 1px;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    width: 500px;
+    height: auto;
+}
