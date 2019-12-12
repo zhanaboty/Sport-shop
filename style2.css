@@ -231,6 +231,9 @@ footer .main1{
     padding-top: 20px;
     
 }
+.t p,.e p{
+    font-family: 'Crimson Text', serif;
+}
 .e i{
     color: cornsilk;
 } 
@@ -241,6 +244,10 @@ footer .main1{
 .r a{
     text-decoration: none;
     color: cornsilk;
+    font-family: 'Crimson Text', serif;
+}
+.t h2,.e h2,.r h2, .social_networks h2{
+    letter-spacing: 2.5px;
 }
 .social_networks img{
     width: 30px;
@@ -252,19 +259,17 @@ footer .main1{
     background-color: rgba(255, 247, 247, 0.767);
 }
 .aboutus .main{
-    font-size: 20px;
-    padding-left: 20%;
-    padding-top: 10%;
+    font-size: 23px;
+    padding-left: 15%;
+    padding-top: 15%;
     padding-bottom: 15%;
 }
 .aboutus .main h1{
-    font-size: 50px;
-    
+    font-size: 70px;
 }
 .img1 img{
     margin-top: 10%;
     margin-bottom: 10%;
-    border: 1px;
     border-bottom-right-radius: 25%;
     border-top-left-radius: 25%;
     width: 400px;
@@ -275,7 +280,6 @@ footer .main1{
     margin-top: 10%;
     margin-bottom: 10%;
     margin-right: 120px;
-    border: 1px;
     border-top-left-radius: 25%;
     border-bottom-right-radius: 25%;
     width: 400px;
@@ -297,12 +301,10 @@ footer .main1{
 .words h3{
     border-bottom: 2px solid black;
     color: rgb(26, 25, 24);
-
 }
 .words p{
     font-size: 22px;
     color: rgb(53, 52, 52);
-    
 }
 .words h2{
     color: rgb(25, 25, 31);
@@ -317,5 +319,8 @@ footer .main1{
 .partner_logos a{
     margin-left: 15%;
     margin-bottom: 10%;
-
+}
+.partners h2{
+    font-size: 45px;
+    letter-spacing: 2px;
 }
