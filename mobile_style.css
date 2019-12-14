@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 630px) {
     @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
     @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Inria+Serif|Lora&display=swap');
 *{
@@ -438,3 +438,45 @@ form, .content1 {
     background-image: url("concrete-1646788_960_720.webp");
 }
   }
+
+
+
+
+.product_list img{
+    padding-top: 5%;
+    margin-left:5%;
+    width: 200px;
+    height: auto;
+    padding-bottom: 5%;
+}
+.product_list{
+    display: flex;
+    background-image: url("concrete-1646788_960_720.webp");
+}
+.pro{
+    padding-top: 8%;
+    padding-left: 5%;
+}
+.pro button{
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: tomato;
+    border-radius: 25px;
+    margin-bottom: 2%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.pro button:hover{
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    margin-bottom: 2%;
+    font-size: 20px;
+    color: tomato;
+}
+.sports h2{
+    color: white;
+}

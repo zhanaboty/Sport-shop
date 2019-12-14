@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Inria+Serif|Lora&display=swap');
+@media only screen and (max-width: 650px) {
+    @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Inria+Serif|Lora&display=swap');
 *{
     padding: 0%;
     margin: 0%;
@@ -8,21 +9,20 @@
 }
 .top{
     background-color: rgb(49, 44, 44);
-    padding: 10px;
+    text-align: center;
 }
 .spans{
-    padding-left: 12%;
-    font-size: large;
-    width: 25px;
-    height: 30px;
-    margin-bottom: -8px;
-    color: white;
+    font-size: 14px;
+    margin:0;
+    text-align: center;
+    color: rgb(255, 255, 255);
     font-family: 'Crimson Text', serif;
 }
 .spans_img{
     width: 25px;
     height: 30px;
     margin-bottom: -8px;
+    display: none;
 }
 header{
     display: flex;
@@ -45,26 +45,16 @@ header{
 .fa-address-book,.fa-shopping-basket,
 .fa-arrow-up{
     color:white;
+    display: none;
 }
 .logo_word1{
-    font-size: 40px;
-    font-family: fantasy;
-    color: rgb(63, 33, 13);
-    padding-bottom: 10px;
-    margin: 20px;
-    margin-left: 10px;
+    display: none;
 }
 .logo_word2{
-    margin: 20px;
-    font-size: 40px;
-    font-family: fantasy;
-    color: rgba(17, 42, 49, 0.911);
-    margin-left: -10px; 
+    display: none;
 }
 .logo_img{
-    margin: 10px;
-    width: 70px;
-    height: 70px;
+    display: none;
 }
 .left_side{
     display: flex;
@@ -77,7 +67,7 @@ header{
     text-decoration:none;
     font-weight: 500;
     color:white;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Lora', serif;
 }
 .left_side a:hover{
@@ -87,7 +77,6 @@ header{
     background-image: url("winter.jpg");
     display: flex;
     justify-content: center;
-
     min-height: 550px; 
     background-attachment: fixed;
     background-position: bottom;
@@ -105,71 +94,48 @@ header{
 }
 .parallax h1{
     padding-top: 90px;
-    font-size: 50px;
+    font-size: 40px;
     color:white;
     font-weight: bold;
     letter-spacing: 2px;
     transition: font-size 0.2s;
 }
 .parallax h1:hover{
-    font-size: 60px;
+    font-size: 50px;
 }
 .parallax p{
     color: rgba(248, 248, 248, 0.801);
-    font-size: 16px;
+    font-size: 12px;
     transition: font-size 0.2s;
     font-family: 'Crimson Text', serif; 
 }
 .parallax p:hover{
-    font-size: 24px;
+    font-size: 14px;
 }
 .parallax button{
     border:none;
     border-radius: 10px;
-    width: 150px;
-    height: 50px;
+    width: 120px;
+    height: 40px;
     background-color: rgba(255, 196, 45, 0.87);
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color: black;
     transition: width 0.2s, height 0.2s;
 }
 .parallax button:hover{
-    width: 180px;
-    height: 55px;
+    width: 130px;
+    height: 45px;
     color:rgba(255, 196, 45, 0.87);
     background-color: black;
-    font-size: 25px;   
+    font-size: 22px;   
 }
 /* Catalog */
-.buy{
-    text-align: center;
-    text-decoration: none;
-    border: none;
-    border-radius: 25px;
-    background-color: tomato;
-    padding-left: 50px;
-    padding-right: 50px;
-    color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.buy:hover{
-    text-align: center;
-    text-decoration: none;
-    border: none;
-    border-radius: 25px;
-    background-color: black;
-    padding-left: 50px;
-    padding-right: 50px;
-    color: tomato;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
 #sports a{
+    text-align: center;
     text-decoration: none;
-    margin: 1%;
+    margin: auto;
     font-size: 20px;
     color: rgb(7, 11, 41);
     transition: font-size 0.2s;
@@ -181,7 +147,9 @@ header{
     color: rgb(184, 8, 8);
 }
 #sports {
-    margin-left:3.5% ;
+    margin:auto ;
+    text-align: center;
+    margin-right: 10%;
 }
 .container {
     width: 100%; 
@@ -240,9 +208,9 @@ header{
     border: 1px solid grey;
     background-color: rgba(248, 248, 248, 0.801);
     text-align: center;
-    margin: 30px;
-    margin-top: 3%;
-    margin-left: 5%;
+    margin: auto;
+    margin-right: 30%;
+    margin-top: 10%;
 }
 .element{
     display: flex;
@@ -285,6 +253,7 @@ header{
 }
 /* all */
 .fa-chevron-up{
+    display: none;
 }
 .bottom{
     margin: 0;
@@ -311,13 +280,18 @@ footer .main1{
 }
 .t p,.e p{
     font-family: 'Crimson Text', serif;
+    font-size: 14px;
+    display: none;
 }
 .e i{
     color: cornsilk;
+    font-size: 14px;
+    display: none;
 } 
 .main1 div{
     margin-left: 8%;
     text-align: left;
+    display: none;
 }
 .r a{
     text-decoration: none;
@@ -331,36 +305,35 @@ footer .main1{
     width: 30px;
     height: auto;
 }
+/* about us page */
 .aboutus{
     width: 100%;
     height: auto;
     background-color: rgba(255, 247, 247, 0.767);
 }
 .aboutus .main{
-    font-size: 23px;
-    padding-left: 15%;
+    font-size: 16px;
+    padding-left: 5%;
     padding-top: 15%;
     padding-bottom: 15%;
 }
 .aboutus .main h1{
-    font-size: 70px;
+    font-size: 50px;
+    text-align: center;
 }
 .img1 img{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-left: 40%;
     border-bottom-right-radius: 25%;
     border-top-left-radius: 25%;
-    width: 400px;
+    width: 300px;
     height: auto;
-    margin-left: 30%;
+    
 }
 .img2 img{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-right: 120px;
+    margin-left: 30%;
     border-top-left-radius: 25%;
     border-bottom-right-radius: 25%;
-    width: 400px;
+    width: 300px;
     height: auto;
 }
 .block, .partner_logos{
@@ -369,7 +342,7 @@ footer .main1{
 }
 .partners h2{
     text-align: center;
-    font-size: 35px;
+    font-size: 24px;
     padding-bottom: 5%;
     padding-top: 10%;
 }
@@ -379,9 +352,10 @@ footer .main1{
 .words h3{
     border-bottom: 2px solid black;
     color: rgb(26, 25, 24);
+    display: none;
 }
 .words p{
-    font-size: 22px;
+    font-size: 16px;
     color: rgb(53, 52, 52);
 }
 .words h2{
@@ -389,24 +363,25 @@ footer .main1{
     letter-spacing: 2px;
 }
 .partner_logos img{
-    width: 170px;
+    width: 100px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
+    margin:auto
 }
 .partner_logos a{
-    margin-left: 15%;
+    margin-left: 12%;
     margin-bottom: 10%;
 }
 .partners h2{
-    font-size: 45px;
+    font-size: 35px;
     letter-spacing: 2px;
 }
+/* about us page*/
 
 /* Register page css */
 .header2 {
     width: 40%;
-    padding-top: 10%;
 	margin:auto;
 	color: white;
 	background: #5F9EA0;
@@ -436,7 +411,7 @@ form, .content1 {
 	height: 30px;
 	width: 93%;
 	padding: 5px 10px;
-	font-size: 16px;
+	font-size: 14px;
 	border-radius: 5px;
 	border: 1px solid gray;
 }
@@ -462,43 +437,4 @@ form, .content1 {
 #admin_main{
     background-image: url("concrete-1646788_960_720.webp");
 }
-/* Register page css */
-.product_list img{
-    padding-top: 5%;
-    margin-left:20%;
-    width: 300px;
-    height: auto;
-    padding-bottom: 5%;
-}
-.product_list{
-    display: flex;
-    background-image: url("concrete-1646788_960_720.webp");
-}
-.pro{
-    padding-top: 8%;
-    padding-left: 5%;
-}
-.pro button{
-    width: 120px;
-    height: 30px;
-    border: none;
-    background-color: tomato;
-    border-radius: 25px;
-    margin-bottom: 2%;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-}
-.pro button:hover{
-    width: 120px;
-    height: 30px;
-    border: none;
-    background-color: rgb(0, 0, 0);
-    border-radius: 25px;
-    margin-bottom: 2%;
-    font-size: 20px;
-    color: tomato;
-}
-.sports h2{
-    padding-left: 20%;
-    color:white
-}
+  }
