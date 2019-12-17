@@ -1,36 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Catalog</title>
-    <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" type="text/css" href="fontawesome-free-5.11.2-web/css/all.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Adamina' rel='stylesheet'>
-    <link rel="stylesheet" href="mobile_style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="top">
-            <span class="spans"> <i class="fas fa-map-marker-alt "></i> Address: Kazakhstan, Atyrau</span>
-            <span class="spans"> <i class="fas fa-phone-alt"></i> Phone:8-775-914-86-46</span>
-            <span class="spans"> <i class="fas fa-at"></i> Site: sportshop.kz</span>
-        </div>
-        <header>
-            <span class="right_side"> 
-                <img class="logo_img" src="icon_sport.png" alt="football">   
-                <p class="logo_word1">Sport</p>
-                <p class="logo_word2">Shop</p>            
-            </span>
-            <span class="left_side">
-                    <a href="index2.html"> <i class="fas fa-home"></i> HOME</a>
-                    <a href="aboutus.html"> <i class="fas fa-address-card"></i> ABOUT US</a>
-                    <a href="Catalog.html"> <i class="far fa-address-book"></i> CATALOG</a>
-                    <a href=""> <i class="fas fa-shopping-basket"></i> BASKET</a>
-                    <a href="Admin.html"><i class="fas fa-sign-in-alt"></i>LOG IN</a>
-            </span>
-        </header>
+<?php include("blocks/header.php");?>
         <div class="content">
             <nav id="sports">
                 <a href="">Football</a>
@@ -55,7 +23,7 @@
                                 <p>Costs:</p>
                                 <p>Sizes:</p>
                                 <p>Colors:</p>
-                                <a class="buy" href="product list.html">Buy</a>
+                                <a class="buy" href="product list.php">Buy</a>
                         </div>
                         <div class="platforma">
                                 <a href=""><i class="fas fa-shopping-basket"></i></a>
@@ -133,43 +101,4 @@
                 </div>
                 <a href="#" class="topbutton"> <i class="fas fa-chevron-up"></i></a>
             </div>
-            <footer>
-                <div class="main1">
-                    <div class="t">
-                        <h2>About Us</h2><br>
-                        <p>Ut volutpat consectetur aliquam. <br>
-                            Curabitur auctor in nis ulum ornare. <br>
-                            Sed consequat, augue condimentum fermentum <br>
-                            gravida, metus elit vehicula dui.</p>
-                    </div>
-                    <div class="r">
-                        <h2>Categories</h2><br>
-                        <p><a href="">For Mens</a></p>
-                        <p><a href="">For Womens</a></p>
-                        <p><a href="">Kids</a></p>
-                    </div>
-                    <div class="e">
-                        <h2>Contact</h2><br>
-                        <p> <i class="fas fa-phone-alt"></i> 8-775-914-86-46</p>
-                        <p> <i class="fas fa-map-marker-alt "></i> Kazakhstan, Atyrau</p>
-                        <p> <i class="fas fa-at"></i> sportshop.kz</p>
-                    </div>
-                    <div class="social_networks">
-                        <h2>We in social media</h2><br>
-                        <a href="https://www.instagram.com/zhanaboty/"><img src="instagram.png" alt="instagram"></a>
-                        <a href=""><img src="facebook.png" alt="facebook"></a>
-                        <a href=""><img src="whatsapp.png" alt="whatsapp"></a>
-                        <a href=""><img src="youtube.png" alt="youtube"></a>
-                        <a href=""><img src="skype.png" alt="skype"></a>
-                    </div>
-                </div>
-                <div class="bottom">
-                    <p>@Copyright 2019 -  Designed by <a href="https://www.instagram.com/zhanaboty/">@zhanaboty</a></p>
-                </div>
-            </footer>
-        </div>    
-    
-    
-     
-    </body> 
-    </html>
+<?php include("blocks/footer.php");?>

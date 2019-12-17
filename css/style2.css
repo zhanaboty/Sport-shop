@@ -28,8 +28,9 @@ header{
     display: flex;
     flex-wrap: wrap;
     height: 90px;
-    background-color: rgba(80, 82, 81, 0.692);
+    /* background-color: rgba(80, 82, 81, 0.692); */
     position: relative; 
+    background-color: black;
 }
 .right_side{
     display: flex;
@@ -46,25 +47,12 @@ header{
 .fa-arrow-up{
     color:white;
 }
-.logo_word1{
-    font-size: 40px;
-    font-family: fantasy;
-    color: rgb(63, 33, 13);
-    padding-bottom: 10px;
-    margin: 20px;
-    margin-left: 10px;
-}
-.logo_word2{
-    margin: 20px;
-    font-size: 40px;
-    font-family: fantasy;
-    color: rgba(17, 42, 49, 0.911);
-    margin-left: -10px; 
-}
+
 .logo_img{
-    margin: 10px;
-    width: 70px;
-    height: 70px;
+    /* margin: 10px; */
+    width: 300px;
+    height: 90px;
+    
 }
 .left_side{
     display: flex;
@@ -80,14 +68,17 @@ header{
     font-size: 20px;
     font-family: 'Lora', serif;
 }
-.left_side a:hover{
-    color: rgb(136, 20, 0);
+.left_side i:hover{
+    color:rgb(16, 150, 4);
+}
+i{
+    letter-spacing: 1px;
+    font-weight: 1000;
 }
 .parallax{
-    background-image: url("winter.jpg");
+    background-image: url("../img/winter.jpg");
     display: flex;
     justify-content: center;
-
     min-height: 550px; 
     background-attachment: fixed;
     background-position: bottom;
@@ -198,7 +189,7 @@ header{
     padding-left: 11%;
     margin:auto; 
     padding-top: 3%;
-    background-image: url("concrete-1646788_960_720.webp");
+    background-image: url("../img/concrete-1646788_960_720.webp");
 }
 /* .sidebar a{
     margin-left: -60px;
@@ -460,7 +451,7 @@ form, .content1 {
 }
 
 #admin_main{
-    background-image: url("concrete-1646788_960_720.webp");
+    background-image: url("../img/concrete-1646788_960_720.webp");
 }
 /* Register page css */
 .product_list img{
