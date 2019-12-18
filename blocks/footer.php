@@ -21,7 +21,7 @@
                 </div>
                 <div class="social_networks">
                     <h2>We in social media</h2><br>
-                    <a href="https://www.instagram.com/zhanaboty/"><img src="instagram.png" alt="instagram"></a>
+                    <a href="https://www.instagram.com/zhanaboty/"><img src="img/instagram.png" alt="instagram"></a>
                     <a href=""><img src="img/facebook.png" alt="facebook"></a>
                     <a href=""><img src="img/whatsapp.png" alt="whatsapp"></a>
                     <a href=""><img src="img/youtube.png" alt="youtube"></a>

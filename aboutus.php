@@ -1,6 +1,6 @@
 <?php include("blocks/header.php");?>
     <div class="aboutus">
-        <div class="main">
+        <div class="main wow rotateIn">
             <h1>ABOUT US</h1><br>
             <p>Our mission is what drives us to do everything possible to expand human potential. We do that by <br>
             creating groundbreaking sport innovations, by making our products more sustainably, by building a<br>
@@ -11,10 +11,10 @@
         </div>
         <div class="blocks">
             <div class="block">
-                    <div class="img1">
-                        <img src="justdoit.jpg" alt="justdoit">
+                    <div class="img1 wow fadeInLeft">
+                        <img src="img/justdoit.jpg" alt="justdoit">
                     </div>
-                    <div class="words">
+                    <div class="words wow fadeInRight">
                         <h3>INNOVATION</h3><br><br>
                         <h2>WE DARE TO DESIGN THE FUTURE OF SPORT</h2><br>
                         <p>To make big leaps, we take big risks. Learn more about 
@@ -22,39 +22,39 @@
                     </div>
             </div>
             <div class="block"> 
-                    <div class="words">
+                    <div class="words wow fadeInLeft">
                         <h3>SUSTAINABLE BUSINESS INNOVATION</h3><br><br>
                         <h2>PROTECTING THE FUTURE OF SPORT</h2><br>
                         <p>We believe in a fair, sustainable future—one where everyone <br>
                             thrives on a healthy planet and level playing field. Learn how <br>
                             Nike is using the power of sport to move the world forward.</p>
                     </div>
-                    <div class="img2">
-                        <img src="штангист.jpg" alt="штанга">
+                    <div class="img2 wow fadeInRight">
+                        <img src="img/штангист.jpg" alt="штанга">
                     </div>
             </div>
             <div class="block">
-                    <div class="img1">
-                        <img src="nikee.jpg" alt="justdoit">
+                    <div class="img1 wow fadeInLeft">
+                        <img src="img/nikee.jpg" alt="justdoit">
                     </div>
-                    <div class="words">
+                    <div class="words wow fadeInRight">
                         <h3>OUR TEAM</h3><br><br>
                         <h2>A TEAM THAT'S EMPOWERED, <br> DIVERSE AND INCLUSIVE</h2><br>
                         <p>A love of sport unites us. Learn more about Nike's global team.</p>
                     </div>
             </div>
             <div class="block"> 
-                    <div class="words">
+                    <div class="words wow fadeInLeftt">
                         <h3>SOCIAL & COMMUNITY IMPACT</h3><br><br>
                         <h2>THE WORLD IS OUR COMMUNITY</h2><br>
                         <p>We believe in the power of sport to move the world. <br>
                             Learn how Nike makes an impact in local communities.</p>
                     </div>
-                    <div class="img2">
-                        <img src="man.jpg" alt="штанга">
+                    <div class="img2 wow fadeInRight">
+                        <img src="img/man.jpg" alt="штанга">
                     </div>
             </div>
-            <div class="partners">
+            <div class="partners wow jackInTheBox">
                 <h2>OUR PARTNERS</h2>
                 <div class="partner_logos">
                     <a href="https://www.adidas.com/us"><img src="img/adidas.png" alt="adidas"></a>
