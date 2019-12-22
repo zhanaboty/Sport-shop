@@ -25,13 +25,13 @@
     </div>
     <header>
         <span class="right_side"> 
-            <img class="logo_img" src="logo1.jpg" alt="football">   
+            <img class="logo_img" src="img/logo1.jpg" alt="football">   
         </span>
         <span class="left_side">
-            <a href="index.php"> <i class="fas fa-home">HOME</i> </a>
-            <a href="aboutus.php"> <i class="fas fa-address-card">ABOUT US</i></a>
-            <a href="Catalog.php"> <i class="far fa-address-book">CATALOG</i> </a>
-            <a href=""> <i class="fas fa-shopping-basket">BASKET</i> </a>
+            <a href="index.php"><i class="fas fa-home">HOME</i></a>
+            <a href="aboutus.php"><i class="fas fa-address-card">ABOUT US</i></a>
+            <a href="Catalog.php"><i class="far fa-address-book">CATALOG</i></a>  
+            <a href=""> <i class="fas fa-shopping-basket">BASKET</i></a>
             <a href="Admin.php"><i class="fas fa-sign-in-alt">LOG IN</i></a>
         </span>
     </header>

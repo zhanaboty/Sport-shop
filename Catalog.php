@@ -25,7 +25,24 @@
                                 </div>
                         </div>
                 </div>
-                <?php endforeach; ?>    
+                <?php endforeach; ?>   
+                <div class="form">
+                        <form action="db.php" method="POST">
+                                <label>Name</label><br>
+                                <input type="text" name="name" placeholder="Enter Name"><br>
+                                <label>Cost</label><br>
+                                <input type="text" name="cost" placeholder="Enter the Cost"><br>
+                                <label>Size</label><br>
+                                <input type="text" name="size" placeholder="Enter Size"><br>
+                                <label>Colors</label><br>
+                                <input type="text" name="color" placeholder="Enter Colors"><br>
+                                <label>Category ID</label><br>
+                                <input type="text" name="id" placeholder="Enter Category ID"><br>
+                                <label>Image</label><br>
+                                <input type="text" name="img" placeholder="Add IMG url"><br>
+                                <button type="submit" name="save">Save</button>
+                        </form>
+                </div> 
         </div>
             
 <?php require "blocks/footer.php";?>
