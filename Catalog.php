@@ -22,6 +22,8 @@
                                         <p>Sizes:<?php echo $single["size"]; ?></p>
                                         <p>Colors:<?php echo $single["color"]; ?></p>
                                         <button>Buy</button>
+                                        <a href="Catalog.php?edit=<?php echo $single["id"]; ?>" class="edit">Edit</a>
+                                        <a href="db.php?delete=<?php echo $single["id"]; ?>" class="delete">Delete</a>
                                 </div>
                         </div>
                 </div>
@@ -29,17 +31,17 @@
                 <div class="form">
                         <form action="db.php" method="POST">
                                 <label>Name</label><br>
-                                <input type="text" name="name" placeholder="Enter Name"><br>
+                                <input type="text" name="name" value="<?php echo $name; ?>" placeholder="Enter Name"><br>
                                 <label>Cost</label><br>
-                                <input type="text" name="cost" placeholder="Enter the Cost"><br>
+                                <input type="text" name="cost" value="<?php echo $cost; ?>" placeholder="Enter the Cost"><br>
                                 <label>Size</label><br>
-                                <input type="text" name="size" placeholder="Enter Size"><br>
+                                <input type="text" name="size" value="<?php echo $size; ?>" placeholder="Enter Size"><br>
                                 <label>Colors</label><br>
-                                <input type="text" name="color" placeholder="Enter Colors"><br>
+                                <input type="text" name="color" value="<?php echo $color; ?>" placeholder="Enter Colors"><br>
                                 <label>Category ID</label><br>
                                 <input type="text" name="id" placeholder="Enter Category ID"><br>
                                 <label>Image</label><br>
-                                <input type="text" name="img" placeholder="Add IMG url"><br>
+                                <input type="text" name="img" value="<?php echo $img; ?>" placeholder="Add IMG url"><br>
                                 <button type="submit" name="save">Save</button>
                         </form>
                 </div> 

@@ -278,7 +278,7 @@ i{
     color: rgb(175, 53, 53);
 }
 .platforma button{
-    width: 120px;
+    width: 70px;
     height: 30px;
     border: none;
     background-color: tomato;
@@ -288,8 +288,6 @@ i{
     color: rgb(0, 0, 0);
 }
 .platforma button:hover{
-    width: 120px;
-    height: 30px;
     border: none;
     background-color: rgb(0, 0, 0);
     border-radius: 25px;
@@ -300,6 +298,50 @@ i{
 .platforma img{
     width: 250px;
     height: 250px;
+}
+.edit{
+    padding-top: 2px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    padding-right: 18px;
+    border: none;
+    text-align: center;
+    background-color: rgb(74, 132, 241);
+    border-radius: 25px;
+    margin-bottom: 2%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.edit:hover{
+    border: none;
+    background-color: rgb(241, 174, 74);
+    border-radius: 25px;
+    margin-bottom: 2%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.delete{
+    padding-top: 2px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    padding-right: 18px;
+    border: none;
+    text-align: center;
+    background-color: rgb(172, 17, 17);
+    border-radius: 25px;
+    margin-bottom: 2%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.delete:hover{
+    border: none;
+    background-color: rgb(26, 141, 78);
+    border-radius: 25px;
+    margin-bottom: 2%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
 }
 /* Catalog */
 /* all */
