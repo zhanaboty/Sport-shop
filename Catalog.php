@@ -1,11 +1,11 @@
 <?php require "blocks/header.php";?>
 <div class="backgr">
-<div class="category">
+<!-- <div class="category">
             <a href="Football">hjgfd</a>
             <a href="">kljhgf</a>
             <a href="">jkhgfd</a>
             <a href="">kljhgfd</a>
-</div>       
+</div>        -->
         <div class="cont">
             <?php
                 $singles = get_all_platformas();

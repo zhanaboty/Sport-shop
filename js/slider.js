@@ -24,3 +24,15 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+
+delete.addEventListener('click',function third() {
+    var r = confirm("Are u sure, want to delete?");
+    if (r == true) {
+        event.target.parentNode.parentNode.style.display = "none";
+    }
+    else {
+        h.style.margin = "0 2px"; 
+    }
+    
+});
