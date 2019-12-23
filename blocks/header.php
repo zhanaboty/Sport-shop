@@ -15,6 +15,7 @@
     <script>
         new WOW().init();
     </script>
+    <script src="js/slider.js"></script>
 </head>
 <body>
     <div class="container">

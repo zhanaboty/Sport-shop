@@ -6,6 +6,13 @@ $password = "";
 
 $db = new PDO("mysql:host=$dbhost;dbname=$dbname",$username,$password);
 
+$update = false;
+$name = '';
+$cost = '';
+$size = '';
+$color = '';
+$img = '';
+
 //for adding new element
 if (isset($_POST['save'])){
     $name = $_POST['name'];
@@ -33,16 +40,20 @@ if (isset($_GET['delete'])){
     header("location: Catalog.php");
 }
 
+
+// for edit element
 if (isset($_GET['edit'])){
     $id = $_GET['edit'];
+    $update = true;
     $singles = $db->query("SELECT * FROM main WHERE id = $id") or die($db->error());
     if(count($singles)==1){
-        $single = $db->fetch_array();
+        $single = $singles->fetch_array();
         $name = $single['name'];
         $cost = $single['cost'];
         $size = $single['size'];
         $color = $single['color'];
         $img = $single['img'];
+    }
 }
 
 

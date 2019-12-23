@@ -1,31 +1,52 @@
 <?php include("blocks/header.php");?>
+<?php 
+    $user = $_POST['username'];
+    $email = $_POST['email'];
+    $pass = $_POST['pass'];
+    $error = '';
+    $success = '';
+
+    if(isset($_POST['submit'])){
+        if($user == 'admin'){
+            if($pass == 'password'){
+                $error = '';
+                $success = 'Welcome Admin!!!';
+                
+                header("Location: Catalog.php");
+            }
+            else{
+                $error = 'Invalid Password!!!';
+                $success = '';
+            }
+        }
+        else{
+            $error = 'Invalid Username!!!';
+                $success = '';
+        }
+    }    
+?>
         <main id="admin_main">
                 <div class="header2">
-                        <h2>Register</h2>
+                        <h2>Sign In</h2>
                     </div>
-                    <form method="post" action="register.php">
+                    <form  class="login" method="post">
                         <div class="input-group">
+                            
                             <label>Username</label>
-                            <input type="text" name="username" value="">
+                            <p class="error"><?php echo $error; ?></p><p class="success"><?php echo $success; ?></p>
+                            <input type="text" name="username" value="" required>
                         </div>
                         <div class="input-group">
                             <label>Email</label>
-                            <input type="email" name="email" value="">
+                            <input type="email" name="email" value="" required>
                         </div>
                         <div class="input-group">
                             <label>Password</label>
-                            <input type="password" name="password_1">
+                            <input type="password" name="pass" required>
                         </div>
                         <div class="input-group">
-                            <label>Confirm password</label>
-                            <input type="password" name="password_2">
+                            <button type="submit" class="btn" name="submit" value="submit">Sign IN</button>
                         </div>
-                        <div class="input-group">
-                            <button type="submit" class="btn" name="register_btn">Register</button>
-                        </div>
-                        <p>
-                            Already a member? <a href="">Sign in</a>
-                        </p>
                     </form>
             </main>
         <a href="#" class="topbutton"> <i class="fas fa-chevron-up"></i></a>

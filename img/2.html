@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://www.jssor.com/demos/image-slider.slider -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Language" content="en">
+
+    
+    
+
+    <title>
+        Image Slider - Jssor Slider
+    </title>
+    <!-- #region Google Ad Code -->
+    <script type="text/javascript" async="" src="./2_files/analytics.js.Без названия"></script><script async="" src="./2_files/f.txt"></script>
+    <!-- #endregion -->
+    
+    <style type="text/css">
+        .elfinder-tree .elfinder-navbar-root .elfinder-navbar-icon {
+            background-position: 0 -16px !important;
+        }
+    </style>
+
+    <!-- Google Counter Begin -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="./2_files/js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-45690170-1');
+    </script>
+    <!-- Google Counter End -->
+
+
+    <link href="./2_files/site-style-2.7.0.min.css" rel="stylesheet">
+</head>
+<body style="font-family: Arial, sans-serif;">
+    <form method="post" action="https://www.jssor.com/demos/image-slider.slider" id="form1" class="mainform">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="g4f0g//hwwsayoYokLqARLJiyN9e4jVfPLXIPYltqR7ZCDYmCUrz+lf2QDWFo+xr/vm8eXlV3XnQfGQXBXGDvi/m3npFRwwcFMhQF9ZI8+UXy7YJYb62gHL4tNsu8l/4+TjLe4NErqtP/iagECE88CPpEGF8A6S6rEzkyM8DWv/yjs6LaYecJZC/cqDHPmrJtUOJH8jpV0pP/JyJYHPemQ==">
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B6CBD475">
+</div>
+
+        <!--#region header-->
+        <div class="header public clearfix">
+            <a class="logo" href="https://www.jssor.com/">Jssor</a>
+            
+            <div class="nav">
+                <input type="checkbox" id="toggle">
+                <label for="toggle" class="toggle" onclick="">
+                    <span class="icon-bar" style="top: 7px;"></span>
+                    <span class="icon-bar" style="top: 14px;"></span>
+                    <span class="icon-bar" style="top: 21px;"></span>
+                </label>
+                
+                <div data-u="navi-sign" data-interaction="user-commands" class="nav-sign" style="visibility: visible;"><a class="nav-btn nav-signup" href="https://www.jssor.com/action/sign_up.aspx" target="_blank">Sign up</a><a data-command="jssor-login" class="nav-btn nav-signin" href="https://www.jssor.com/action/login.aspx">Log in</a></div>
+                
+        <!-- for public access -->
+        <div class="menu">
+
+            <a href="https://www.jssor.com/">Home</a>
+            <a class="current" href="https://www.jssor.com/demos/">Demos</a>
+            <a href="https://www.jssor.com/slideshow/">Slideshow</a>
+            <a href="https://www.jssor.com/skins/">Skins</a>
+
+            <a href="https://www.jssor.com/tutorial/">Tutorial</a>
+            <a href="https://www.jssor.com/help/">Help</a>
+
+            <a href="https://www.jssor.com/development/">Development</a>
+            
+            <!--<a href="/download.html">Download</a>-->
+            <a href="https://www.jssor.com/pricing.html">Pricing</a>
+            <a href="https://www.jssor.com/support.html">Support</a>
+        </div>
+
+            </div>
+        </div>
+        <!--#endregion-->
+
+        <!--#region content-->
+        
+
+        
+        <!-- #region Jssor Slider Begin -->
+        <!-- Generator: Jssor Slider Composer -->
+        <!-- Source: https://www.jssor.com/demos/image-slider.slider/=edit -->
+        <script src="./2_files/jssor.slider-28.0.0.min.js.Без названия" type="text/javascript"></script>
+        <script type="text/javascript">
+            window.jssor_1_slider_init = function() {
+
+                var jssor_1_SlideoTransitions = [
+                  [{b:500,d:1000,x:0,e:{x:6}}],
+                  [{b:-1,d:1,x:100,p:{x:{d:1,dO:9}}},{b:0,d:2000,x:0,e:{x:6},p:{x:{dl:0.1}}}],
+                  [{b:-1,d:1,x:200,p:{x:{d:1,dO:9}}},{b:0,d:2000,x:0,e:{x:6},p:{x:{dl:0.1}}}],
+                  [{b:-1,d:1,rX:20,rY:90},{b:0,d:4000,rX:0,e:{rX:1}}],
+                  [{b:-1,d:1,rY:-20},{b:0,d:4000,rY:-90,e:{rY:7}}],
+                  [{b:-1,d:1,sX:2,sY:2},{b:1000,d:3000,sX:1,sY:1,e:{sX:1,sY:1}}],
+                  [{b:-1,d:1,sX:2,sY:2},{b:1000,d:5000,sX:1,sY:1,e:{sX:3,sY:3}}],
+                  [{b:-1,d:1,tZ:300},{b:0,d:2000,o:1},{b:3500,d:3500,tZ:0,e:{tZ:1}}],
+                  [{b:-1,d:1,x:20,p:{x:{o:33,r:0.5}}},{b:0,d:1000,x:0,o:0.5,e:{x:3,o:1},p:{x:{dl:0.05,o:33},o:{dl:0.02,o:68,rd:2}}},{b:1000,d:1000,o:1,e:{o:1},p:{o:{dl:0.05,o:68,rd:2}}}],
+                  [{b:-1,d:1,da:[0,700]},{b:0,d:600,da:[700,700],e:{da:1}}],
+                  [{b:600,d:1000,o:0.4}],
+                  [{b:-1,d:1,da:[0,400]},{b:200,d:600,da:[400,400],e:{da:1}}],
+                  [{b:800,d:1000,o:0.4}],
+                  [{b:-1,d:1,sX:1.1,sY:1.1},{b:0,d:1600,o:1},{b:1600,d:5000,sX:0.9,sY:0.9,e:{sX:1,sY:1}}],
+                  [{b:0,d:1000,o:1,p:{o:{o:4}}}],
+                  [{b:1000,d:1000,o:1,p:{o:{o:4}}}]
+                ];
+
+                var jssor_1_options = {
+                  $AutoPlay: 1,
+                  $CaptionSliderOptions: {
+                    $Class: $JssorCaptionSlideo$,
+                    $Transitions: jssor_1_SlideoTransitions
+                  },
+                  $ArrowNavigatorOptions: {
+                    $Class: $JssorArrowNavigator$
+                  },
+                  $BulletNavigatorOptions: {
+                    $Class: $JssorBulletNavigator$
+                  }
+                };
+
+                var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+                /*#region responsive code begin*/
+
+                var MAX_WIDTH = 980;
+
+                function ScaleSlider() {
+                    var containerElement = jssor_1_slider.$Elmt.parentNode;
+                    var containerWidth = containerElement.clientWidth;
+
+                    if (containerWidth) {
+
+                        var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                        jssor_1_slider.$ScaleWidth(expectedWidth);
+                    }
+                    else {
+                        window.setTimeout(ScaleSlider, 30);
+                    }
+                }
+
+                ScaleSlider();
+
+                $Jssor$.$AddEvent(window, "load", ScaleSlider);
+                $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+                $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+                /*#endregion responsive code end*/
+            };
+        </script>
+        <link href="./2_files/css" rel="stylesheet" type="text/css">
+        <link href="./2_files/css(1)" rel="stylesheet" type="text/css">
+        <style>
+            /*jssor slider loading skin double-tail-spin css*/
+            .jssorl-004-double-tail-spin img {
+                animation-name: jssorl-004-double-tail-spin;
+                animation-duration: 1.6s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+            }
+
+            @keyframes jssorl-004-double-tail-spin {
+                from { transform: rotate(0deg); }
+                to { transform: rotate(360deg); }
+            }
+
+            /*jssor slider bullet skin 031 css*/
+            .jssorb031 {position:absolute;}
+            .jssorb031 .i {position:absolute;cursor:pointer;}
+            .jssorb031 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
+            .jssorb031 .i:hover .b {fill:#fff;fill-opacity:.7;stroke:#000;stroke-opacity:.5;}
+            .jssorb031 .iav .b {fill:#fff;stroke:#000;fill-opacity:1;}
+            .jssorb031 .i.idn {opacity:.3;}
+
+            /*jssor slider arrow skin 051 css*/
+            .jssora051 {display:block;position:absolute;cursor:pointer;}
+            .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+            .jssora051:hover {opacity:.8;}
+            .jssora051.jssora051dn {opacity:.5;}
+            .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+        </style>
+        <div id="jssor_1" style="position: relative; margin: 0px auto; top: 0px; left: 0px; width: 980px; height: 380px; overflow: hidden; visibility: visible;" data-jssor-slider="1">
+            <!-- Loading Screen -->
+            
+            <div style="display: block; position: absolute; top: 0px; left: 0px; width: 980px; height: 380px;"><div style="display: block; position: absolute; top: 0px; left: 0px; width: 980px; height: 380px;"><div data-u="slides" style="cursor: default; position: absolute; top: 0px; left: 0px; width: 980px; height: 380px; overflow: hidden; margin: 0px; padding: 0px; transform-style: flat; z-index: 0; pointer-events: none;"><div style="width: 980px; height: 380px; top: 0px; left: 0px; display: block; position: absolute; z-index: 0;"></div></div><div data-u="slides" style="cursor: default; position: absolute; top: 0px; left: 0px; width: 980px; height: 380px; overflow: hidden; margin: 0px; padding: 0px; transform-style: flat; z-index: 0;">
+                <div style="width: 980px; height: 380px; top: 0px; left: -980px; position: absolute; z-index: 1; overflow: hidden; transform-style: flat;">
+                    <div data-u="bg" style="width: 980px; height: 380px; top: 0px; left: 0px; display: block; position: absolute; overflow: hidden; background-color: rgb(0, 0, 0); background-image: none;"><img data-u="image" style="opacity: 0.5; width: 980px; height: 380px; top: 0px; left: 0px; display: block; position: absolute; max-width: 10000px; z-index: 1;" src="./2_files/px-action-athlete-athletes-848618-image.jpg" border="0" data-events="auto" data-display="block"></div>
+                    <div data-ts="flat" data-p="320" style="left: 144px; top: 80px; width: 550px; height: 90px; position: absolute; overflow: hidden; z-index: 1; perspective: 320px; transform-style: flat;" data-events="auto" data-display="block">
+                        <div data-to="50% 50%" data-ts="preserve-3d" data-t="0" style="left: 550px; top: 0px; width: 550px; height: 90px; position: absolute; overflow: hidden; transform-origin: 50% 50%; z-index: 1; transform-style: preserve-3d; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-events="auto" data-display="block">
+                            <div data-to="50% 50%" data-ts="preserve-3d" data-arr="" style="left: 20px; top: 18px; width: 200px; height: 20px; position: absolute; color: rgb(237, 241, 242); font-size: 16px; font-weight: 700; line-height: 1.2; letter-spacing: 0.1em; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform-style: preserve-3d;" data-events="auto" data-display="block"><span data-t="16" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.25, 0, 0, 1);" data-events="auto" data-display="inline-block">F</span><span data-t="17" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.5, 0, 0, 1);" data-events="auto" data-display="inline-block">a</span><span data-t="18" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 18.75, 0, 0, 1);" data-events="auto" data-display="inline-block">s</span><span data-t="19" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 25, 0, 0, 1);" data-events="auto" data-display="inline-block">t</span><span data-t="20" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 31.25, 0, 0, 1);" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="21" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 37.5, 0, 0, 1);" data-events="auto" data-display="inline-block">a</span><span data-t="22" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 43.75, 0, 0, 1);" data-events="auto" data-display="inline-block">n</span><span data-t="23" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 50, 0, 0, 1);" data-events="auto" data-display="inline-block">d</span><span data-t="24" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 56.25, 0, 0, 1);" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="25" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 62.5, 0, 0, 1);" data-events="auto" data-display="inline-block">f</span><span data-t="26" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 68.75, 0, 0, 1);" data-events="auto" data-display="inline-block">u</span><span data-t="27" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 75, 0, 0, 1);" data-events="auto" data-display="inline-block">r</span><span data-t="28" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 81.25, 0, 0, 1);" data-events="auto" data-display="inline-block">i</span><span data-t="29" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 87.5, 0, 0, 1);" data-events="auto" data-display="inline-block">o</span><span data-t="30" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 93.75, 0, 0, 1);" data-events="auto" data-display="inline-block">u</span><span data-t="31" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 100, 0, 0, 1);" data-events="auto" data-display="inline-block">s</span></div>
+                            <div data-to="50% 50%" data-ts="preserve-3d" data-arr="" style="left: 19px; top: 36px; width: 600px; height: 30px; position: absolute; color: rgb(237, 241, 242); font-size: 24px; line-height: 1.2; letter-spacing: 0.05em; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform-style: preserve-3d;" data-events="auto" data-display="block"><span style="font-weight: 900; color: rgb(224, 67, 56); z-index: 1;" data-events="auto" data-display="inline"><span data-t="32" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.4516, 0, 0, 1);" data-events="auto" data-display="inline-block">D</span><span data-t="33" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.9032, 0, 0, 1);" data-events="auto" data-display="inline-block">O</span><span data-t="34" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 19.3548, 0, 0, 1);" data-events="auto" data-display="inline-block">N</span><span data-t="35" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 25.8065, 0, 0, 1);" data-events="auto" data-display="inline-block">'</span><span data-t="36" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 32.2581, 0, 0, 1);" data-events="auto" data-display="inline-block">T</span><span data-t="37" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 38.7097, 0, 0, 1);" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="38" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 45.1613, 0, 0, 1);" data-events="auto" data-display="inline-block">J</span><span data-t="39" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 51.6129, 0, 0, 1);" data-events="auto" data-display="inline-block">U</span><span data-t="40" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 58.0645, 0, 0, 1);" data-events="auto" data-display="inline-block">S</span><span data-t="41" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 64.5161, 0, 0, 1);" data-events="auto" data-display="inline-block">T</span></span><span data-t="42" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 70.9677, 0, 0, 1);" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="43" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 77.4194, 0, 0, 1);" data-events="auto" data-display="inline-block">C</span><span data-t="44" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 83.871, 0, 0, 1);" data-events="auto" data-display="inline-block">H</span><span data-t="45" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 90.3226, 0, 0, 1);" data-events="auto" data-display="inline-block">A</span><span data-t="46" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 96.7742, 0, 0, 1);" data-events="auto" data-display="inline-block">S</span><span data-t="47" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 103.226, 0, 0, 1);" data-events="auto" data-display="inline-block">E</span><span data-t="48" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 109.677, 0, 0, 1);" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="49" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 116.129, 0, 0, 1);" data-events="auto" data-display="inline-block">Y</span><span data-t="50" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 122.581, 0, 0, 1);" data-events="auto" data-display="inline-block">O</span><span data-t="51" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 129.032, 0, 0, 1);" data-events="auto" data-display="inline-block">U</span><span data-t="52" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 135.484, 0, 0, 1);" data-events="auto" data-display="inline-block">R</span><span data-t="53" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 141.935, 0, 0, 1);" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="54" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 148.387, 0, 0, 1);" data-events="auto" data-display="inline-block">D</span><span data-t="55" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 154.839, 0, 0, 1);" data-events="auto" data-display="inline-block">R</span><span data-t="56" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 161.29, 0, 0, 1);" data-events="auto" data-display="inline-block">E</span><span data-t="57" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 167.742, 0, 0, 1);" data-events="auto" data-display="inline-block">A</span><span data-t="58" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 174.194, 0, 0, 1);" data-events="auto" data-display="inline-block">M</span><span data-t="59" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 180.645, 0, 0, 1);" data-events="auto" data-display="inline-block">S</span><span data-t="60" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 187.097, 0, 0, 1);" data-events="auto" data-display="inline-block">.</span><span data-t="61" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 193.548, 0, 0, 1);" data-events="auto" data-display="inline-block">.</span><span data-t="62" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 1; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 200, 0, 0, 1);" data-events="auto" data-display="inline-block">.</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 980px; height: 380px; top: 0px; left: -980px; position: absolute; z-index: 1; overflow: hidden; transform-style: flat;">
+                    <div data-u="bg" style="width: 980px; height: 380px; top: 0px; left: 0px; display: block; position: absolute; overflow: hidden; background-color: rgba(0, 0, 0, 0); background-image: none;"><img data-u="image" src="./2_files/px-beach-daylight-fun-1430675-image.jpg" border="0" style="width: 980px; height: 380px; top: 0px; left: 0px; display: block; position: absolute; max-width: 10000px; z-index: 1;" data-events="auto" data-display="block"></div>
+                    <div data-ts="flat" data-p="2720" data-po="50% 48%" style="left: 0px; top: 0px; width: 980px; height: 380px; position: absolute; z-index: 1; perspective: 2720px; perspective-origin: 50% 48%; transform-style: flat;" data-events="auto" data-display="block">
+                        <div data-to="50% 50%" data-ts="preserve-3d" data-t="3" style="left: 400px; top: -30px; width: 500px; height: 400px; position: absolute; transform-origin: 50% 50%; z-index: 1; transform-style: preserve-3d; transform: matrix3d(6.12323e-17, 0, -1, 0, 0.34202, 0.939693, 2.09427e-17, 0, 0.939693, -0.34202, 5.75396e-17, 0, 0, 0, 0, 1);" data-events="auto" data-display="block">
+                            <div data-to="50% 50%" data-ts="preserve-3d" data-t="4" style="left: 0px; top: 0px; width: 500px; height: 400px; position: absolute; transform-origin: 50% 50%; z-index: 1; transform-style: preserve-3d; transform: matrix3d(0.939693, 0, 0.34202, 0, 0, 1, 0, 0, -0.34202, 0, 0.939693, 0, 0, 0, 0, 1);" data-events="auto" data-display="block">
+                                <div data-to="50% 50%" data-ts="preserve-3d" data-t="5" style="left: 0px; top: 0px; width: 500px; height: 400px; position: absolute; transform-origin: 50% 50%; z-index: 1; transform-style: preserve-3d; transform: matrix3d(2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-events="auto" data-display="block">
+                                    <div data-to="50% 50%" data-ts="preserve-3d" data-t="6" style="left: 0px; top: 0px; width: 500px; height: 400px; position: absolute; transform-origin: 50% 50%; z-index: 1; transform-style: preserve-3d; transform: matrix3d(2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-events="auto" data-display="block">
+                                        <div data-to="50% 50%" data-t="7" style="left: -50px; top: 175px; width: 600px; height: 38px; position: absolute; opacity: 0; color: rgb(0, 161, 134); font-size: 32px; font-weight: 700; line-height: 1.2; text-align: center; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 300, 1); pointer-events: none;" data-events="auto" data-display="block">Create your kind of holiday</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 980px; height: 380px; top: 0px; left: 0px; position: absolute; z-index: 1; overflow: hidden; transform-style: flat;">
+                    <div data-u="bg" style="width: 980px; height: 380px; top: 0px; left: 0px; display: block; position: absolute; overflow: hidden; background-color: rgba(0, 0, 0, 0); background-image: none;"><img data-u="image" src="./2_files/px-fun-man-person-2361598-image.jpg" border="0" style="width: 980px; height: 380px; top: 0px; left: 0px; display: block; position: absolute; max-width: 10000px; z-index: 1;" data-events="auto" data-display="block"></div>
+                    <div data-ts="flat" data-p="2720" data-po="50% 48%" style="left: 0px; top: 0px; width: 980px; height: 380px; position: absolute; z-index: 1; perspective: 2720px; perspective-origin: 50% 48%; transform-style: flat;" data-events="auto" data-display="block">
+                        <div data-to="50% 50%" data-ts="preserve-3d" data-arr="" style="left: -2px; top: 20px; width: 1000px; height: 20px; position: absolute; opacity: 1; color: rgb(15, 242, 242); font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.2; letter-spacing: 1.3em; text-align: center; transform-origin: 50% 50%; z-index: 1; transform-style: preserve-3d;" data-events="auto" data-display="block"><span data-t="63" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0043; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">C</span><span data-t="64" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0473; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.7527, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">H</span><span data-t="65" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.09; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">A</span><span data-t="66" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0046; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.4147, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">M</span><span data-t="67" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.1154; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">P</span><span data-t="68" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0313; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.1767, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">I</span><span data-t="69" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0783; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">O</span><span data-t="70" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0393; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0387, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">N</span><span data-t="71" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.2335; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">S</span><span data-t="72" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0019; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="73" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0077; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">A</span><span data-t="74" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0235; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">R</span><span data-t="75" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0683; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">E</span><span data-t="76" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0125; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="77" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.2024; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">M</span><span data-t="78" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0579; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">A</span><span data-t="79" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.1024; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">D</span><span data-t="80" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0241; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">E</span><span data-t="81" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0004; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="82" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.2961; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">W</span><span data-t="83" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.2649; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">H</span><span data-t="84" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0173; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">E</span><span data-t="85" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0672; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">N</span><span data-t="86" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0081; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="87" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.1572; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">N</span><span data-t="88" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.2492; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">O</span><span data-t="89" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0305; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="90" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0005; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">O</span><span data-t="91" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.1289; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">N</span><span data-t="92" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0569; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">E</span><span data-t="93" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0385; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="94" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0794; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">I</span><span data-t="95" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0021; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">S</span><span data-t="96" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.1428; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="97" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.2806; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">W</span><span data-t="98" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.012; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">A</span><span data-t="99" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.1871; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">T</span><span data-t="100" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0482; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">C</span><span data-t="101" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.2179; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">H</span><span data-t="102" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.0178; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); pointer-events: auto;" data-events="auto" data-display="inline-block">I</span><span data-t="103" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0.172; transform-origin: 50% 50%; z-index: 1; pointer-events: auto;" data-events="auto" data-display="inline-block">N</span><span data-t="104" data-to="50% 50%" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); pointer-events: none;" data-events="auto" data-display="inline-block">G</span></div>
+                    </div>
+                </div>
+                <div style="width: 980px; height: 380px; top: 0px; left: 980px; position: absolute; z-index: 1; overflow: hidden; transform-style: flat;">
+                    <div data-u="bg" style="width: 980px; height: 380px; top: 0px; left: 0px; display: block; position: absolute; overflow: hidden; background-color: rgb(0, 0, 0); background-image: none;"><img data-u="image" style="opacity: 0.5; width: 980px; height: 380px; top: 0px; left: 0px; display: block; position: absolute; max-width: 10000px; z-index: 1;" src="./2_files/faded-monaco-scenery-evening-dark-picjumbo-com-image.jpg" border="0" data-events="auto" data-display="block"></div>
+                    <div data-ts="flat" data-p="1800" data-po="50% -100%" style="left: 120px; top: 90px; width: 600px; height: 300px; position: absolute; z-index: 1; perspective: 1800px; perspective-origin: 50% -100%; transform-style: flat;" data-events="auto" data-display="block">
+                        <svg viewBox="0 0 200 200" width="200" height="200" data-t="10" style="left: 66px; top: 21px; display: block; position: absolute; opacity: 0.6; overflow: visible; z-index: 1;" data-events="auto" data-display="block">
+                            <path stroke-dasharray="0,700" fill="none" stroke="#ffffff" d="M0,100C0,44.77152 44.77152,0 100,0C155.22848,0 200,44.77152 200,100C200,155.22848 155.22848,200 100,200C44.77152,200 0,155.22848 0,100Z" data-t="9" data-events="auto" data-display="inline" style="z-index: 1;"></path>
+                        </svg>
+                        <svg viewBox="0 0 80 80" width="80" height="80" data-t="12" style="left: 3px; top: 124px; display: block; position: absolute; opacity: 0.6; overflow: visible; z-index: 1;" data-events="auto" data-display="block">
+                            <path stroke-dasharray="0,400" fill="none" stroke="#ffffff" shape-rendering="crispEdges" d="M80,80L0,80L0,0L80,0Z" data-t="11" data-events="auto" data-display="inline" style="z-index: 1;"></path>
+                        </svg>
+                        <svg viewBox="0 0 500 200" data-to="50% 50%" width="500" height="200" data-t="13" style="left: 50px; top: 50px; display: block; position: absolute; opacity: 0; overflow: visible; transform-origin: 50% 50%; z-index: 1; transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); pointer-events: none;" data-events="auto" data-display="block">
+                            <g data-events="auto" data-display="inline" style="z-index: 1;">
+                                <text fill="#ffffff" x="17" y="110" style="position: absolute; font-family: Montserrat, sans-serif; font-size: 32px; font-weight: 300; overflow: visible; z-index: 1;" data-events="auto" data-display="block">MODERN
+                                </text>
+                                <text fill="#ffffff" x="188" y="110" style="position: absolute; font-family: Montserrat, sans-serif; font-size: 32px; font-weight: 500; letter-spacing: 0.1em; overflow: visible; z-index: 1;" data-events="auto" data-display="block">PROMOTION
+                                </text>
+                                <text fill="#ff3700" x="218" y="130" style="position: absolute; font-family: Montserrat, sans-serif; font-size: 16px; font-weight: 900; letter-spacing: 0.1em; overflow: visible; z-index: 1;" data-events="auto" data-display="block">EYE FOCUS
+                                </text>
+                                <text fill="#ff3700" x="333" y="130" style="position: absolute; opacity: 0.8; font-family: Montserrat, sans-serif; font-size: 16px; font-weight: 700; letter-spacing: 0.1em; overflow: visible; z-index: 1;" data-events="auto" data-display="block">MOTION TITLES
+                                </text>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <div style="width: 980px; height: 380px; top: 0px; left: -980px; position: absolute; z-index: 1; overflow: hidden; transform-style: flat;">
+                    <div data-u="bg" style="width: 980px; height: 380px; top: 0px; left: 0px; display: block; position: absolute; overflow: hidden; background-color: rgba(0, 0, 0, 0); background-image: none;"><img data-u="image" src="./2_files/px-bloom-blossom-flora-65219-image.jpg" border="0" style="width: 980px; height: 380px; top: 0px; left: 0px; display: block; position: absolute; max-width: 10000px; z-index: 1;" data-events="auto" data-display="block"></div>
+                    <div data-ts="flat" data-p="500" style="left: 160px; top: -30px; width: 800px; height: 200px; position: absolute; z-index: 1; perspective: 500px; transform-style: flat;" data-events="auto" data-display="block">
+                        <div data-arr="" style="left: 0px; top: 36px; width: 800px; height: 70px; position: absolute; opacity: 1; color: rgb(25, 148, 148); font-family: &quot;Roboto Condensed&quot;, sans-serif; font-size: 32px; font-weight: 400; line-height: 1.2; letter-spacing: -0.05em; text-align: center; text-shadow: rgb(217, 217, 154) 2px 1px; z-index: 1;" data-events="auto" data-display="block"><span data-t="105" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">A</span><span data-t="106" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">D</span><span data-t="107" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">D</span><span data-t="108" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">I</span><span data-t="109" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">N</span><span data-t="110" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">G</span><span data-t="111" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="112" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">&nbsp;</span><span style="font-size: 2em; z-index: 1;" data-events="auto" data-display="inline"><span data-t="113" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">P</span><span data-t="114" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">E</span><span data-t="115" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">R</span><span data-t="116" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">F</span><span data-t="117" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">E</span><span data-t="118" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">C</span><span data-t="119" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">T</span><span data-t="120" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">I</span><span data-t="121" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">O</span><span data-t="122" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">N</span></span><span data-t="123" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="124" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="125" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">T</span><span data-t="126" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">O</span><span data-t="127" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="128" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="129" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">Y</span><span data-t="130" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">O</span><span data-t="131" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">U</span><span data-t="132" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">R</span><span data-t="133" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="134" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">&nbsp;</span><span style="font-size: 1.6em; z-index: 1;" data-events="auto" data-display="inline"><span data-t="135" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">L</span><span data-t="136" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">A</span><span data-t="137" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">W</span><span data-t="138" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">N</span></span></div>
+                        <div data-arr="" style="left: 0px; top: 106px; width: 800px; height: 48px; position: absolute; opacity: 1; color: rgb(13, 77, 77); font-family: &quot;Roboto Condensed&quot;, sans-serif; font-size: 20px; font-weight: 400; line-height: 1.2; letter-spacing: 0.2em; text-align: center; text-shadow: rgb(217, 217, 154) 1px 1px; z-index: 1;" data-events="auto" data-display="block"><span data-t="139" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">C</span><span data-t="140" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">R</span><span data-t="141" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">E</span><span data-t="142" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">A</span><span data-t="143" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">T</span><span data-t="144" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">I</span><span data-t="145" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">N</span><span data-t="146" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">G</span><span data-t="147" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="148" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">G</span><span data-t="149" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">R</span><span data-t="150" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">E</span><span data-t="151" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">E</span><span data-t="152" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">N</span><span data-t="153" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">&nbsp;</span><span style="font-size: 2em; z-index: 1;" data-events="auto" data-display="inline"><span data-t="154" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">S</span><span data-t="155" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">P</span><span data-t="156" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">A</span><span data-t="157" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">C</span><span data-t="158" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">E</span><span data-t="159" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">S</span></span><span data-t="160" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="161" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">F</span><span data-t="162" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">O</span><span data-t="163" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">R</span><span data-t="164" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">&nbsp;</span><span data-t="165" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">L</span><span data-t="166" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">I</span><span data-t="167" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">V</span><span data-t="168" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">I</span><span data-t="169" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">N</span><span data-t="170" data-to="" data-bf="" data-c="" style="display: inline-block; position: relative; opacity: 0; z-index: 1; pointer-events: none;" data-events="auto" data-display="inline-block">G</span></div>
+                    </div>
+                </div><a data-u="any" href="https://www.jssor.com/" style="display: none; z-index: 1;">slider html</a>
+            </div></div></div>
+            <!-- Bullet Navigator -->
+            <div style="display: block; position: absolute; bottom: 12px; left: 430px; width: 120px; height: 16px;"><div data-u="navigator" class="jssorb031" style="position: absolute; bottom: 12px; width: 120px; height: 16px; left: 0px; top: 0px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75"><div data-u="prototype" class="i" style="width: 16px; height: 16px; position: absolute; left: 0px; top: 0px;" data-jssor-button="1">
+                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                    </svg>
+                </div><div data-u="prototype" class="i" style="width: 16px; height: 16px; position: absolute; left: 26px; top: 0px;" data-jssor-button="1">
+                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                    </svg>
+                </div><div data-u="prototype" class="i iav" style="width: 16px; height: 16px; position: absolute; left: 52px; top: 0px;" data-jssor-button="1">
+                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                    </svg>
+                </div><div data-u="prototype" class="i" style="width: 16px; height: 16px; position: absolute; left: 78px; top: 0px;" data-jssor-button="1">
+                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                    </svg>
+                </div><div data-u="prototype" class="i" style="width: 16px; height: 16px; position: absolute; left: 104px; top: 0px;" data-jssor-button="1">
+                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                    </svg>
+                </div></div></div>
+            <!-- Arrow Navigator -->
+            <div style="display: block; position: absolute; top: 162.5px; left: 25px; width: 55px; height: 55px;"><div data-u="arrowleft" class="jssora051" style="width: 55px; height: 55px; top: 0px; left: 0px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75" data-jssor-button="1" data-nofreeze="1">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                </svg>
+            </div></div>
+            <div style="display: block; position: absolute; top: 162.5px; right: 25px; width: 55px; height: 55px;"><div data-u="arrowright" class="jssora051" style="width: 55px; height: 55px; top: 0px; right: 25px; left: 0px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75" data-jssor-button="1" data-nofreeze="1">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                </svg>
+            </div></div>
+            <div style="display: block; position: absolute; top: 2px; right: 2px; width: 70px; height: 92px;"><div data-interaction="user-commands" class="cmd-box" style="width: 70px; height: 92px; top: 0px; left: 0px; visibility: visible;" data-scale=".2" data-scale-top=".5" data-scale-right=".5">
+                <div data-command="jssor-editslider" class="cmd-btn cmd-btn-slider" title="edit this slider" style="opacity: 1; pointer-events: all;">Edit 
+                </div>
+                <div data-command="jssor-getslider" class="cmd-btn cmd-btn-slider" title="download this slider">Get 
+                </div>
+                <div data-command="jssor-share" class="cmd-btn cmd-btn-slider" title="share">Share 
+                </div>
+                <div data-command="jssor-loginslider" class="cmd-btn cmd-btn-slider" title="login">Login </div>
+            </div></div>
+        </div>
+        <script type="text/javascript">jssor_1_slider_init();
+        </script>
+        <!-- #endregion Jssor Slider End -->
+        
+        <script src="./2_files/jssor.user.commands.init-1.22.0.min.js.Без названия"></script>
+        <script>
+            jssor_user_commands_init({ accessControl: {"fileInfo":{"id":0,"name":"demos/image-slider.slider","isReserved":1,"isReadonly":1},"authorInfo":{"userName":"","memberPlan":0},"accessInfo":{"limitedSlides":0,"limitedTransitions":0,"maxUploadFileSize":307200}}, settings: {"resLibCdnUrl":"//jssors8.azureedge.net"} });
+        </script>
+
+    
+    <!-- demo sliders begin -->
+    <div class="ad_title">
+        <div id="ad_title_banner" class="ad_title_banner">
+            <!-- 728x90_second_banner -->
+            <ins id="ad_banner_728_second" class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-5323311666976160" data-ad-slot="9380985535"></ins>
+
+            <script>
+                new function () {
+                    var availableWidth = document.body.clientWidth || 728;
+                    window.screen && window.screen.availWidth && (availableWidth = Math.max(availableWidth, window.screen.availWidth));
+
+                    if (availableWidth < 728) {
+                        var adTitleBanner = document.getElementById("ad_title_banner");
+                        adTitleBanner && adTitleBanner.parentNode.removeChild(adTitleBanner);
+                    }
+                    else {
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    }
+                };
+            </script>
+        </div>
+
+        <div class="ad_title_caption" style="position: absolute; top: 0px; left: 0px; margin-left: 30px; line-height: 90px; font-size: 26px; color: #ff8400; ">
+            <span>Demo - Sliders</span>
+        </div>
+    </div>
+    
+    <div style="margin: 0 auto; width: 100%; max-width: 980px; background-color: #EAEAEA; overflow: hidden;">
+        <div class="thumb_wrapper">
+            <div class="thumb">
+                <div class="side_mark">Free</div>
+                <a class="thumbb" href="https://www.jssor.com/demos/product/product.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/thumb-product-slider-300.jpg" alt="product slider"></div>
+                    <div class="thumbc">Product Slider</div>
+                </a>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Free</div>
+                <a class="thumbb" href="https://www.jssor.com/demos/image-slider.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/thumb-image-slider-300.jpg" alt="image slider jquery javascript+html code example for website design, website development, web design, web development, web designer, web developer, website designer, website developer, website, website builder, web page"></div>
+                    <div class="thumbc">Image Slider</div>
+                </a>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Free</div>
+                <a class="thumbb" href="https://www.jssor.com/demos/ski/ski.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/thumb-ski-slider-300.jpg" alt="ski slider"></div>
+                    <div class="thumbc">Ski Slider</div>
+                </a>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Free</div>
+                <a class="thumbb" href="https://www.jssor.com/demos/village-tour/village-tour.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/thumb-village-tour-slider-300.jpg" alt="village-tour"></div>
+                    <div class="thumbc">Village Tour Slider</div>
+                </a>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Free</div>
+                <a class="thumbb" href="https://www.jssor.com/demos/sport/sport.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/thumb-sport-slider-300.jpg" alt="sport slider"></div>
+                    <div class="thumbc">Sport Slider</div>
+                </a>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Premium</div>
+                <a class="thumbb" href="https://www.jssor.com/premium/full-width/full-width.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/thumb-full-width-slider-300.jpg" alt="full width slider"></div>
+                    <div class="thumbc">Full Width Slider</div>
+                </a>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Premium</div>
+                <a class="thumbb" href="https://www.jssor.com/premium/food/food.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/thumb-food-slider-300.jpg" alt="food slider"></div>
+                    <div class="thumbc">Food Slider</div>
+                </a>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Ad</div>
+                <div class="ad_rect">
+                    <!-- 300x250_grid_rectangle_up -->
+                    <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5323311666976160" data-ad-slot="9752854738"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Premium</div>
+                <a class="thumbb" href="https://www.jssor.com/premium/interior-design/interior-design.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/thumb-interior-design-slider-300.jpg" alt="interior design slider"></div>
+                    <div class="thumbc">Intgerior Design Slider</div>
+                </a>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Premium</div>
+                <a class="thumbb" href="https://www.jssor.com/premium/team/team.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/thumb-team-slider-300.jpg" alt="team slider"></div>
+                    <div class="thumbc">Team Slider</div>
+                </a>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Premium</div>
+                <a class="thumbb" href="https://www.jssor.com/premium/testimonial/testimonial.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/thumb-testimonial-slider-300.jpg" alt="testimonial"></div>
+                    <div class="thumbc">Testimonial Slider</div>
+                </a>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Premium</div>
+                <a class="thumbb" href="https://www.jssor.com/premium/sales/sales.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/thumb-sales-slider-300.jpg" alt="sales slider"></div>
+                    <div class="thumbc">Sales Slider</div>
+                </a>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Free</div>
+                <a class="thumbb" href="https://www.jssor.com/demos/image-gallery.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/t-image-gallery.jpg" alt="image gallery jquery javascript+html code example for website design, website development, web design, web development, web designer, web developer, website designer, website developer, website, website builder, web page"></div>
+                    <div class="thumbc">Image Gallery</div>
+                </a>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Free</div>
+                <a class="thumbb" href="https://www.jssor.com/demos/image-gallery-with-vertical-thumbnail.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/t-image-gallery-with-vertical-thumbnail.jpg" alt="image gallery with vertical thumbnail jquery javascript+html code example for website design, website development, web design, web development, web designer, web developer, website designer, website developer, website, website builder, web page"></div>
+                    <div class="thumbc">Image Gallery with Vertical Thumbnail</div>
+                </a>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Free</div>
+                <a class="thumbb" href="https://www.jssor.com/demos/banner-slider.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/t-banner-slider.jpg" alt="banner slider jquery javascript+html code example for website design, website development, web design, web development, web designer, web developer, website designer, website developer, website, website builder, web page"></div>
+                    <div class="thumbc">Banner Slider</div>
+                </a>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Free</div>
+                <a class="thumbb" href="https://www.jssor.com/demos/carousel-slider.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/t-carousel-slider.jpg" alt="carousel jquery javascript+html code example for website design, website development, web design, web development, web designer, web developer, website designer, website developer, website, website builder, web page"></div>
+                    <div class="thumbc">Carousel Slider</div>
+                </a>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Ad</div>
+                <div class="ad_rect">
+                    <!-- 300x250_grid_rectangle_below -->
+                    <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5323311666976160" data-ad-slot="7803931655"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Free</div>
+                <a class="thumbb" href="https://www.jssor.com/demos/banner-rotator.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/t-banner-rotator.jpg" alt="banner rotator jquery javascript+html code example for website design, website development, web design, web development, web designer, web developer, website designer, website developer, website, website builder, web page"></div>
+                    <div class="thumbc">Banner Rotator</div>
+                </a>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Free</div>
+                <a class="thumbb" href="https://www.jssor.com/demos/scrolling-logo-thumbnail-slider.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/t-scrolling-logo-thumbnail-slider.jpg" alt="scrolling logo thumbnail slider jquery javascript+html code example for website design, website development, web design, web development, web designer, web developer, website designer, website developer, website, website builder, web page"></div>
+                    <div class="thumbc">Scrolling Logo/Thumbnail Slider</div>
+                </a>
+            </div>
+
+
+            <div class="thumb">
+                <div class="side_mark">Free</div>
+                <a class="thumbb" href="https://www.jssor.com/demos/different-size-photo-slider.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/t-different-size-photo-slider.jpg" alt="different size photo slider jquery javascript+html code example for website design, website development, web design, web development, web designer, web developer, website designer, website developer, website, website builder, web page"></div>
+                    <div class="thumbc">Different Size Photo Slider</div>
+                </a>
+            </div>
+
+            <div class="thumb">
+                <div class="side_mark">Free</div>
+                <a class="thumbb" href="https://www.jssor.com/demos/nearby-image-partial-visible-slider.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/t-nearby-image-partial-visible-slider.jpg" alt="nearby image partial visible slider jquery javascript+html code example for website design, website development, web design, web development, web designer, web developer, website designer, website developer, website, website builder, web page"></div>
+                    <div class="thumbc">Nearby Image Partial Visible Slider</div>
+                </a>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Free</div>
+                <a class="thumbb" href="https://www.jssor.com/demos/full-window-for-mobile.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/t-full-window-for-mobile.jpg" alt="Full Window Slider Mobile Image Slider/Slideshow/Gallery/Banner/Rotator/Scroller"></div>
+
+                    <div class="thumbc">Full Window Slider (Mobile)</div>
+                </a>
+            </div>
+            <div class="thumb">
+                <div class="side_mark">Free</div>
+                <a class="thumbb" href="https://www.jssor.com/demos/full-window-for-pc.slider" target="_blank">
+                    <div class="thumbi"><img src="./2_files/t-full-window-for-pc.jpg" alt="Full Window Slider PC Image Carousel/Slideshow/Gallery/Banner/Rotator/Scroller"></div>
+
+                    <div class="thumbc">Full Window Slider (PC)</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- demo sliders end -->
+
+    <div style="height: 10px; clear: both;"></div>
+
+        <!--#endregion-->
+
+        
+
+
+        <!--#region footer-->
+        <div class="footer">
+            <span class="copyright">&nbsp;Jssor Slider 2009-2018</span>
+
+            
+<!--#region share icon footer-->
+<div data-interaction="user-commands" class="cmd-box">
+    <div data-command="jssor-share" class="cmd-btn" title="share"></div>
+    <div data-command="jssor-qrcode" class="cmd-btn" title="QR code"></div>
+</div>
+<!--#region-->
+
+        </div>
+        <!--#endregion-->
+    </form>
+
+
+</body></html>

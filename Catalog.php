@@ -42,7 +42,14 @@
                                 <input type="text" name="id" placeholder="Enter Category ID"><br>
                                 <label>Image</label><br>
                                 <input type="text" name="img" value="<?php echo $img; ?>" placeholder="Add IMG url"><br>
-                                <button type="submit" name="save">Save</button>
+                                
+                                <?php 
+                                if ($update == true):
+                                ?>
+                                <button type="submit" name="update">Update</button>
+                                <?php else: ?>
+                                        <button type="submit" name="save">Save</button>
+                                <?php endif; ?>                                        
                         </form>
                 </div> 
         </div>
