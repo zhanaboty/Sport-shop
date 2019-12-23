@@ -33,7 +33,8 @@
             <a href="aboutus.php"><i class="fas fa-address-card">ABOUT US</i></a>
             <a href="Catalog.php"><i class="far fa-address-book">CATALOG</i></a>  
             <a href=""> <i class="fas fa-shopping-basket">BASKET</i></a>
-            <a href="Admin.php"><i class="fas fa-sign-in-alt">LOG IN</i></a>
             <a href="user.php"><i class="fas fa-sign-in-alt">USER</i></a>
+            <a href="Admin.php"><i class="fas fa-sign-in-alt">Admin page</i></a>
+            
         </span>
     </header>
